@@ -1,0 +1,29 @@
+{
+  "name": "@test-ui/input",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Lee Jungwoo <leejw0803@konkuk.ac.kr>",
+  "homepage": "https://github.com/leejw0803/next-monorepo-example#readme",
+  "license": "ISC",
+  "main": "lib/Input.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leejw0803/next-monorepo-example.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/leejw0803/next-monorepo-example/issues"
+  },
+  "dependencies": {
+    "@test-ui/button": "1.0.0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@test-ui/button",
+  "version": "1.0.0",
+  "description": "It's button",
+  "author": "Lee Jungwoo <leejw0803@konkuk.ac.kr>",
+  "homepage": "https://github.com/leejw0803/next-monorepo-example#readme",
+  "license": "ISC",
+  "main": "lib/Button.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leejw0803/next-monorepo-example.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "lerna exec --parallel -- babel --root-mode upward src -d dist --ignore **/*.stories.js,**/*.spec.js"
+  },
+  "bugs": {
+    "url": "https://github.com/leejw0803/next-monorepo-example/issues"
+  }
+}
